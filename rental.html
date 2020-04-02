@@ -181,58 +181,130 @@
 								<p>$15</p>
 								<p>*Cost includes pump and patch kit, PFD</p>
 							</section>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+							<h2 style="text-align: center;">Book</h2>
+							<form method="post" action="#" >
+								<div class="row gtr-uniform">
+									<div class="col-2 col-12-xsmall">
+										<select name="demo-title" id="demo-title" required>
+											<option value="">Title*</option>
+											<option value="1">Mr</option>
+											<option value="1">Mrs</option>
+											<option value="1">Miss</option>
+											<option value="1">Ms</option>
+										</select>
 									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+									<div class="col-5 col-12-xsmall">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name*" required/>
 									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
+									<div class="col-5 col-12-xsmall">
+										<input type="text" name="demo-surname" id="demo-surname" value="" placeholder="Surname*" required/>
 									</div>
 								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+								<br>
+								<div class="row gtr-uniform">										
+									<div class="col-7 col-12-xsmall">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email*" required/>
+									</div>
+									<div class="col-5 col-12-xsmall">
+										<input type="text" name="demo-phone" id="demo-phone" value="" placeholder="Phone Number" />
+									</div>
+								</div>								
+								<br>
+								<p style="text-align: center;">Equipment choice</p>
+								<div class="row gtr-uniform">	
+									<div class="col-2 col-12-xsmall">	
+										<p>Kayak</p>
+									</div>
+									<div class="col-3 col-12-xsmall">
+										<input type="checkbox" id="vehicle2" name="vehicle2" value="Single">
+										<label for="vehicle2">Single</label>
+									</div>
+									<div class="col-2 col-12-xsmall">
+										<input type="text" name="demo-amountKayak" id="demo-amountKayak" value="" placeholder="Amount"/>
+									</div>
+									<div class="col-3 col-12-xsmall">
+										<input type="checkbox" id="vehicle3" name="vehicle3" value="Double">
+										<label for="vehicle3">Double</label>
+									</div>
+									<div class="col-2 col-12-xsmall">
+										<input type="text" name="demo-amountKayak" id="demo-amountKayak" value="" placeholder="Amount"/>
+									</div>
+								</div>
+								<br>
+								<div class="row gtr-uniform">	
+									<div class="col-5 col-12-xsmall">
+										<p>Stand Up Paddle Board</p>
+									</div>
+									<div class="col-2 col-12-xsmall">
+										<input type="text" name="demo-amountBoard" id="demo-amountBoard" value="" placeholder="Amount"/>
+									</div>
+									<div class="col-3 col-12-xsmall">
+										<p>Single Person Tube</p>
+									</div>
+									<div class="col-2 col-12-xsmall">
+										<input type="text" name="demo-amountTube" id="demo-amountTube" value="" placeholder="Amount"/>
+									</div>
+								</div>
+								
+								<br>
+								<div class="row gtr-uniform">										
+									<div class="col-7 col-12-xsmall">
+										<input type="text" name="demo-date" id="demo-date" value="" placeholder="Collection Date*" required/>
+									</div>
+									<div class="col-5 col-12-xsmall">
+										<input type="text" name="demo-duration" id="demo-duration" value="" placeholder="Duration*" required/>
+									</div>
+								</div>
+								<br>
+								<p style="text-align: center;">Payment method</p>
+								<div class="row gtr-uniform">										
+									<div class="col-4 col-12-xsmall">
+										<select name="demo-title" id="demo-title" required>
+											<option value="">Payment Method*</option>
+											<option value="1">Cash</option>
+											<option value="1">Credit/Debit Card</option>
+										</select>
+									</div>
+									<div class="col-4 col-12-xsmall">
+										<input type="text" name="demo-nameCard" id="demo-nameCard" value="" placeholder="Name on the Card"/>
+									</div>
+									<div class="col-4 col-12-xsmall">
+										<input type="text" name="demo-kids" id="demo-kids" value="" placeholder="Expiry Date" />
+									</div>
+								</div>
+								<br>
+								<div class="row gtr-uniform">										
+									<div class="col-4 col-12-xsmall">
+										<input type="text" name="demo-cardnumber" id="demo-cardnumber" value="" placeholder="Card Number"/>
+									</div>
+									<div class="col-4 col-12-xsmall">
+										<input type="text" name="demo-cvv" id="demo-cvv" value="" placeholder="CVV"/>
+									</div>
+									<div class="col-4 col-12-xsmall">
+										<input type="text" name="demo-postcode" id="demo-postcode" value="" placeholder="Post Code"/>
+									</div>
+								</div>
+								<br>
+								<div class="row gtr-uniform">										
+									<div class="col-12">
+										<input type="text" name="demo-address" id="demo-address" value="" placeholder="Billing Address"/>
+									</div>
+								</div>
+								<br>
+								<div class="col-6 col-12-small">
+									<input type="checkbox" id="demo-terms" name="demo-terms">
+									<label for="demo-terms">Terms and Conditions</label>
+								</div>
+								<div class="col-12">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</div>
 							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+					</div>
 
+			
 				<!-- Copyright -->
 					<div id="copyright">
 						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
