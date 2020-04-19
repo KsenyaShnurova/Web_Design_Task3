@@ -1,0 +1,9 @@
+References
+Template: Massively by HTML5UP
+https://html5up.net/massively
+
+Pictures: Unsplash
+https://unsplash.com/
+
+Carousel code:
+https://www.w3schools.com/howto/howto_js_slideshow.asp 
